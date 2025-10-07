@@ -2,7 +2,15 @@
 
 export function combineStrings(strings) {
   let result = "";
-  strings.forEach((string) => {});
+  strings.forEach((string) => {
+    result += string;
+  });
 
   return result;
 }
+
+const words = ["Hej", "på", "dig"];
+const sentence = combineStrings(words);
+console.log(sentence);
+
+console.log(combineStrings);

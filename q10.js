@@ -13,7 +13,7 @@ const data = [
   },
 ];
 
-// returna namnet i samtliga objekt i arrayen
+// returnera namnet i objektet som funktionen tar emot (rätt kommentar från slack)
 const getName = (person) => {};
 
 // lämna denna orörd
