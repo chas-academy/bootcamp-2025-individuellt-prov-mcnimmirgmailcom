@@ -1,0 +1,17 @@
+.container {
+  height: 700px;
+  /* padding: 1rem; */
+  margin: auto;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 90px 90px 90px;
+}
+
+.box {
+  padding: 1rem;
+  background-color: #cdf2d7;
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+}

@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background-color: green;
+}
+
+h1 {
+  color: white;
+}
+
+.kursiv {
+  font-style: italic;
+}
+
+.vit {
+  color: white;
+}

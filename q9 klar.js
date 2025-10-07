@@ -1,5 +1,24 @@
 // skapa funktionerna som anropas i myCalculator så att de funkar så som koden och alla "cases" antyder
 
+export function myAddFunction(a, b) {
+  return a + b;
+}
+
+export function mySubtractFunction(a, b) {
+  return a - b;
+}
+
+export function myMultiplyFunction(a, b) {
+  return a * b;
+}
+
+export function myDivisionFunction(a, b) {
+  if (b === 0) {
+    return "Error: Division by zero!";
+  }
+  return a / b;
+}
+
 export function myCalculator(operator, num1, num2) {
   switch (operator) {
     case "+":
